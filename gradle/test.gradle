@@ -1,0 +1,6 @@
+task("github_test") {
+    println("github_test config!")
+    doLast {
+        println("github_test execute!")
+    }
+}
